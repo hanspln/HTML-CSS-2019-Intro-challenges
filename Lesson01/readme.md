@@ -7,4 +7,4 @@
 5. Set the background of the header to #FEA581
 
 
-![Alt text](Screenshot.jpg?raw=true "Screenshot")
+![Alt text](screenshot.jpg?raw=true "Screenshot")
