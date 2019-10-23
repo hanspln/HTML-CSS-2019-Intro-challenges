@@ -1,5 +1,5 @@
 # Lesson 1 - Navigation bar
-1. Set font size on HTML element tp 100%
+1. Set font size on HTML element to 100% and font-familu to "Helvetica, Arial, sans-serif"
 2. Wrap the header elements in a header
 3. Wrap the ul/list in a nav element and set font size on links to 1.2rem
 4. Align the nav elements on the same line to make a menu
