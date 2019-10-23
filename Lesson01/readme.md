@@ -5,3 +5,6 @@
 3. Align the nav elements on the same line to make a menu
 4. Set the menu text color to #0072F5 
 5. Set the background of the header to #FEA581
+
+
+![Alt text](Screenshot.jpg?raw=true "Screenshot")
