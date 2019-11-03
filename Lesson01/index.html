@@ -6,20 +6,41 @@
 </head>
 <style>
 <!-- All styles go here, no need to make extra css file -->
+    * {
+    font-size: 100px;
+    font-family: "Helvetica, Arial, sans-serif";    
+    }
+    
+    .nav-main a {
+        text-size: 1.2em;     
+    }
+    .nav-main li {
+        display: inline;
+    }
+    
+    .nav-main {
+        margin: 0;
+        color: #0072F5;
+    }
+    
+    .main-header {
+        background-color: #FEA581;
+    }
 
 </style>
 <body>
-    
-    <img src="logo.svg">
-    
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-    
+    <header class="main-header">
+       <nav class="nav-main">
+           <img src="logo.svg">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
     <p>Because you want it right the first time</p>
     
