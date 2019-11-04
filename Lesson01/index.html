@@ -7,19 +7,41 @@
 <style>
 <!-- All styles go here, no need to make extra css file -->
 
+    * {
+    font-size: 500%;
+    font-family: Helvetica, Arial, sans-serif;    
+    }
+    
+    .nav-main a {
+	font-size: 1.2em;     
+    }
+
+    .nav-main li {
+        display: inline;
+    }
+    
+    .nav-main {
+        color: #0072F5;
+    }
+    
+    .main-header {
+        background-color: #FEA581;
+    }
+
 </style>
 <body>
-    
+    <header class="main-header">
     <img src="logo.svg">
-    
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-    
+        <nav class="nav-main">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
     <p>Because you want it right the first time</p>
     
